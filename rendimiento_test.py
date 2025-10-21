@@ -1,5 +1,5 @@
 import time
-from Manejo_de_pruebas.Calculadora import Calculator
+from Calculadora import Calculator
 
 def test_performance():
     calc = Calculator()

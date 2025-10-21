@@ -1,5 +1,5 @@
 import unittest
-from Manejo_de_pruebas.Calculadora import Calculator
+from Calculadora import Calculator
 
 class TestCalculatorIntegration(unittest.TestCase):
     def test_operation_chain(self):
