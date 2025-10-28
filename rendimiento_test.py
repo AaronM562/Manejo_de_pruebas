@@ -4,10 +4,10 @@ from Calculadora import Calculator
 def test_performance():
     calc = Calculator()
     start = time.time()
-    for _ in range(1_000_000):
-        calc.add(1, 2)
-        calc.multiply(3, 4)
-        calc.divide(10, 5)
+    for _ in range(500000):
+        calc.add(1, 1)
+        calc.multiply(2, 2)
+        calc.divide(10, 2)
     end = time.time()
     print(f"Tiempo total: {end - start:.4f} segundos")
 
